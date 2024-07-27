@@ -1,3 +1,4 @@
+
 # Packet Sniffer
 
 ## Overview
@@ -23,41 +24,49 @@ The `PRODIGY_CS_05_packet_sniffer` project is a Python-based packet sniffer tool
 
    ```bash
    git clone https://github.com/pksooraj/PRODIGY_CS_05_packet_sniffer.git
-Navigate to the Project Directory:
+   ```
 
-bash
-Copy code
-cd PRODIGY_CS_05_packet_sniffer
-Install Required Python Packages:
+2. **Navigate to the Project Directory**:
 
-Install the scapy library using pip:
+   ```bash
+   cd PRODIGY_CS_05_packet_sniffer
+   ```
 
-bash
-Copy code
-pip install scapy
-Install Npcap (Windows Users):
+3. **Install Required Python Packages**:
 
-Download and install Npcap from Npcap's official site. During installation, select:
+   Install the `scapy` library using pip:
 
-"Install Npcap in WinPcap API-compatible Mode"
-"Install for all users (requires a reboot)"
-Usage
-Open a Terminal:
+   ```bash
+   pip install scapy
+   ```
 
-For Windows, you might need to run the terminal as Administrator.
-For Linux/Mac, you might need to use sudo.
-Run the Packet Sniffer:
+4. **Install Npcap (Windows Users)**:
 
-bash
-Copy code
-python packet_sniffer.py
-View Output:
+   Download and install Npcap from [Npcap's official site](https://nmap.org/npcap/). During installation, select:
+   - "Install Npcap in WinPcap API-compatible Mode"
+   - "Install for all users (requires a reboot)"
 
-The script will display captured packets including source and destination IP addresses, protocols, and a snippet of payload data.
-Troubleshooting
-Npcap Issues: Ensure Npcap is installed correctly and running. Check the Npcap troubleshooting guide for help.
-Permissions: Run the script with administrative privileges if you encounter permission errors.
-Service Status: Verify that the Npcap service is running from the Services application (services.msc).
+## Usage
+
+1. **Open a Terminal**:
+   - For Windows, you might need to run the terminal as Administrator.
+   - For Linux/Mac, you might need to use `sudo`.
+
+2. **Run the Packet Sniffer**:
+
+   ```bash
+   python packet_sniffer.py
+   ```
+
+3. **View Output**:
+   - The script will display captured packets including source and destination IP addresses, protocols, and a snippet of payload data.
+
+## Troubleshooting
+
+- **Npcap Issues**: Ensure Npcap is installed correctly and running. Check the [Npcap troubleshooting guide](https://nmap.org/npcap/#troubleshooting) for help.
+- **Permissions**: Run the script with administrative privileges if you encounter permission errors.
+- **Service Status**: Verify that the Npcap service is running from the `Services` application (`services.msc`).
+
 ## License
 
 This project is licensed under the MIT License.
@@ -65,7 +74,3 @@ This project is licensed under the MIT License.
 ## Contributions
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue.
-
-
-
-
